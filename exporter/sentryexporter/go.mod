@@ -1,6 +1,6 @@
 module github.com/domengasperlin/opentelemetry-collector-contrib/exporter/sentryexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib => github.com/domengasperlin/opentelemetry-collector-contrib v0.0.0-20250702104246-909424cc71c0
+replace github.com/open-telemetry/opentelemetry-collector-contrib => .
 
 go 1.23.0
 
@@ -8,7 +8,6 @@ require (
 	github.com/domengasperlin/opentelemetry-collector-contrib/internal/coreinternal v0.0.0-00010101000000-000000000000
 	github.com/getsentry/sentry-go v0.34.0
 	github.com/google/go-cmp v0.7.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.129.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.35.1-0.20250630174123-18b3b578b0b3
 	go.opentelemetry.io/collector/component/componenttest v0.129.1-0.20250630174123-18b3b578b0b3
