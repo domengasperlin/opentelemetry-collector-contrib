@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter
+module github.com/domengasperlin/opentelemetry-collector-contrib/exporter/sentryexporter
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib => github.com/domengasperlin/opentelemetry-collector-contrib v0.0.0-20250702104246-909424cc71c0
 
