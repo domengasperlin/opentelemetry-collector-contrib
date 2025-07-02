@@ -1,5 +1,7 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter
 
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter => .
+
 go 1.23.0
 
 require (
