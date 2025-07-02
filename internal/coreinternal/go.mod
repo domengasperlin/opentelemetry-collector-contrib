@@ -1,7 +1,5 @@
 module github.com/domengasperlin/opentelemetry-collector-contrib/internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib => .
-
 go 1.23.0
 
 require (
